@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="container my-4">
+     
+        <!--overpop-->
+        <button class="btn btn-secondary"
+        data-bs-toggle="popover"
+        title="ທີ່ຢູ່ຂອງຂ້ອຍ"
+        data-bs-content="ນະຄອນຫຼວງ ບ້ານຄໍາຮູ່ງ">
+            ຄລິກເພື່ອເບີ່ງລາຍລະອຽດ
+        </button>
+
+    </div>
+  
+        <script>var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})</script>
+    
+</body>
+</html>m
