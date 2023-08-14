@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tooltip</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="container my-4">
+        <!--javascrip widget-->
+        <!--tooltips-->
+        <button class="btn btn-primary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="right"
+        title="<strong>8:00-20:00</strong>"
+        data-bs-html="true"
+        >ເວລາທໍາງານຂອງwebsite </button>
+
+    </div>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
+    
+</body>
+</html>
