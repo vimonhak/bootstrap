@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collape and according</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container my-2">
+        <!--java script widget-->
+        <!--collape-->
+        <button class="btn btn-success"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse-content">ຂໍ້ມູນເພີ່ມຕື່ມ</button>
+        <!--content-->
+      <div id="collapse-content" class="collapse">
+        <div class="card">
+            <div class="card-body">
+              <p class="card-text bg-info"></p>
+            </div>
+
+        </div>
+
+      </div>
+      <hr>
+        <!--Accordion-->
+        <div id="accordion-basic" class="accordion">
+            <div class="accordion-item">
+                <!--ຫົວຂໍ້ ຫຼື ເມນູ-->
+                <h2 class="accordion-header">
+                    <button class="accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#content1">
+                    travel</button>
+                </h2>
+                <!--ເນື້ອຫາ-->
+                <div id="content1">
+                    <div class="accordion-body">
+                        <p>If you decide to go with the separate scripts solution, Popper must come first </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--menu 2-->
+            <div class="accordion-item">
+                <!--ຫົວຂໍ້ ຫຼື ເມນູ-->
+                <h2 class="accordion-header">
+                    <button class="accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#content2">
+                    food</button>
+                </h2>
+                <!--ເນື້ອຫາ-->
+                <div id="content2">
+                    <div class="accordion-body">
+                        <img src="muffin.webp" alt="" class="d-block w-100">
+                        <p>If you decide to go with the separate scripts solution, Popper must come first </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--menu 3-->
+            <div class="accordion-item">
+                <!--ຫົວຂໍ້ ຫຼື ເມນູ-->
+                <h2 class="accordion-header">
+                    <button class="accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#content3">
+                    bakery</button>
+                </h2>
+                <!--ເນື້ອຫາ-->
+                <div id="content3">
+                    <div class="accordion-body">
+                        <img src="muffin.webp" alt="" class="d-block w-100">
+                        <p>If you decide to go with the separate scripts solution, Popper must come first </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
